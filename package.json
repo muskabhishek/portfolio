@@ -1,17 +1,22 @@
 {
-  "name": "scaffold",
+  "name": "abhishek-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:lan": "node scripts/lan.mjs dev",
     "build": "next build",
     "start": "next start",
+    "preview:lan": "next build && node scripts/lan.mjs start",
     "lint": "eslint"
   },
   "dependencies": {
+    "lucide-react": "^1.65.0",
+    "motion": "^14.9.0",
     "next": "16.4.3",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-icons": "^5.7.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
